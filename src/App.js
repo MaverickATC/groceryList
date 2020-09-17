@@ -1,35 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {CssBaseline, Tabs, Tab, AppBar} from "@material-ui/core";
 import {ListView} from "./components/ListView";
-import {EntryView} from "./components/EntyView";
-
-const list = [
-  {
-    name: 'apples',
-    status: 'Have',
-    priority: '1'
-  },
-  {
-    name: 'bananas',
-    status: 'Have',
-    priority: '2'
-  },
-  {
-    name: 'orange',
-    status: 'Ran Out',
-    priority: '5'
-  },
-  {
-    name: 'milk',
-    status: 'Ran Out',
-    priority: '1'
-  },
-  {
-    name: 'Tea',
-    status: 'Have',
-    priority: '3'
-  }
-]
+import {EntryView} from "./components/EntryView";
 
 function TabPanel(props) {
   const {children, value, index, ...other} = props;

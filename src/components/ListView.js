@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import {TextField, MenuItem, Button, Divider} from "@material-ui/core";
+import {TextField, MenuItem, Button} from "@material-ui/core";
 import {makeStyles} from "@material-ui/styles";
 import {ListItem} from "./ListItem";
 
