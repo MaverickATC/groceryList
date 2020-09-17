@@ -57,9 +57,7 @@ function App() {
     })
     if (delIndex >= 0) {
       const prev = [...itemsList];
-      console.log('before: ', prev);
       prev.splice(delIndex, 1);
-      console.log(prev);
       localStorage.setItem('itemsList', JSON.stringify(prev));
       prev.sort((a,b)=>sortList(a,b))
   
