@@ -11,3 +11,4 @@ On the entry view, I can see all of the details of the entry, toggle its status,
 
 ## Guidelines
 Do not spend more than 4 hours working on this task. If we have a technical interview, and I hope we do, we will focus on enhancing this application and discussing how you worked through some of these problems. It's important that we see your best work, if that means that you do not satisfy all of the requirements here that is okay, we don't expect everyone to finish all parts of this in 4 hours. If you have to choose between refactoring and making one piece of this perfect and implementing the next feature, choose refactoring because we want to see how your best work looks. We want to see clear, correct code that uses the right data structures and patterns, and we want to see your style.
+ewtert
